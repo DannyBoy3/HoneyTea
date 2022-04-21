@@ -28,7 +28,8 @@ public class SmsReceiver extends BroadcastReceiver {
                 return;
             }
         }
-        // Notification code
+        // Notification code test
+        System.out.println("test");
     }
 
     private boolean containsLinks(String text) {
