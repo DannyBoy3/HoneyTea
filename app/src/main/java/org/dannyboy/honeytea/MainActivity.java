@@ -3,11 +3,15 @@ package org.dannyboy.honeytea;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.NotificationManagerCompat;
 
 import android.Manifest;
+import android.app.Notification;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,6 +30,12 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
         Toast.makeText(this, "test1", Toast.LENGTH_LONG).show();
+
     }
+
+   /* public void createNotificationChannel(View view) {
+        NotificationCreation.createNotification();
+    }
+    */
 
 }
